@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Drag & Drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <h1>To-Do List</h1>
+    <div id="category-container">
+    </div>
+    <button id="add-category">Add Category</button>
+</div>
+
+<!-- Add/Edit Task Modal -->
+<div id="task-modal" class="modal">
+    <div class="modal-content">
+        <h2 id="task-modal-title">Add Task</h2>
+        <input type="text" id="task-input" placeholder="Task name">
+        <button id="save-task">Save Task</button>
+        <button id="close-modal">Close</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
